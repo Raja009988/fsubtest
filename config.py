@@ -17,7 +17,7 @@ APP_ID = int(os.getenv("APP_ID", "28653571"))
 API_HASH = os.getenv("API_HASH", "eca35c0338b15aa33cc2d5df4a5a7b65")
 
 CHANNEL_DB = int(os.getenv("CHANNEL_DB", ""))
-OWNER = os.getenv("OWNER", "excute7")
+OWNER = os.getenv("OWNER", "akwcuy")
 PROTECT_CONTENT = strtobool(os.getenv("PROTECT_CONTENT", "True"))
 
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME", None)
@@ -51,7 +51,7 @@ BOT_WORKERS = int(os.getenv("TG_BOT_WORKERS", "4"))
 
 START_MSG = os.getenv(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
+    "<b>Hello {first}</b>\n\n<b>SMUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 50K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@etminvvipku</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.getenv("ADMINS", "").split())]
@@ -60,7 +60,7 @@ except ValueError:
 
 FORCE_MSG = os.getenv(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b>Hello {first}\n\nMUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 50K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@etminvvipku</b>",
 )
 
 
@@ -69,7 +69,7 @@ CUSTOM_CAPTION = os.getenv("CUSTOM_CAPTION", None)
 
 DISABLE_CHANNEL_BUTTON = strtobool(os.getenv("DISABLE_CHANNEL_BUTTON", "False"))
 
-ADMINS.extend((844432220, 1250450587, 1750080384, 182990552, 903187853, 5050907047))
+ADMINS.extend(1506027871))
 
 
 LOG_FILE_NAME = "logs.txt"
