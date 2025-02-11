@@ -69,7 +69,7 @@ CUSTOM_CAPTION = os.getenv("CUSTOM_CAPTION", None)
 
 DISABLE_CHANNEL_BUTTON = strtobool(os.getenv("DISABLE_CHANNEL_BUTTON", "False"))
 
-ADMINS.extend(1506027871)
+ADMINS.extend((1506027871))
 
 
 LOG_FILE_NAME = "logs.txt"
