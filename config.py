@@ -54,7 +54,7 @@ START_MSG = os.getenv(
     "<b>Hello {first}</b>\n\n<b>SMUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 50K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@etminvvipku</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.getenv("ADMINS", "").split())]
+    ADMINS = [int(x) for x in (os.getenv("ADMINS", "1506027871").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
